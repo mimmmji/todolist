@@ -1,0 +1,107 @@
+.hidden{
+    display:none;
+}
+
+@font-face {
+    font-family: 'GothicA1-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GothicA1-Light';
+}
+
+
+
+div{
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius:30px;
+    justify-content: center;
+    align-content: center;
+}
+
+#greeting{
+    font-weight: 700;
+
+}
+
+
+#clock{
+    font-size: 55px;
+    margin:10px auto 10px auto;
+}
+#today {
+    font-size: 15px;
+    margin:10px auto 10px auto;
+    color:gray;
+}
+
+.clockbox{
+    padding: 10px;
+    text-align: center;
+}
+
+.loginbox {
+    padding: 10px;
+    text-align: center;
+}
+
+/* 투두리스트 부분*/
+.todobox {
+    padding: 10px;
+    margin-top:0px;
+}
+.todotitle{
+    padding: 0px;
+    text-align: center;
+    color: gray;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0px;
+
+}
+#todo-form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+#todo-form>input{
+    display: flex;
+    width: 2000px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    box-sizing : border-box;
+}
+ul#todo-list{
+    padding-left: 0px;
+}
+ul>li{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#quote {
+    padding: 10px;
+}
+
+#weather {
+    padding: 10px;
+}
